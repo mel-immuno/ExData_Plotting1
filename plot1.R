@@ -23,7 +23,10 @@ selected_data <- mutate(selected_data, Date = as.POSIXct(paste(selected_data$Dat
         select(- Time)
 
 ## Construct the plot
+        ### y axis -> submetering
+        ### overlay of submetering data
 hist(selected_data$Global_active_power, col = "red", main = "Global Active Power", xlab = "Global Active Power (kilowatts)", ylim = c(0,1200), axes = TRUE)
+
 
 ## Create PNG file
 dev.copy(png, file = "plot1.png", width = 480, height = 480)

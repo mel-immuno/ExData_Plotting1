@@ -25,7 +25,7 @@ with(selected_data, {
         plot(Sub_metering_1~Date, type = "l", ylab = "Energy sub metering")
         points(Sub_metering_2~Date,col="red", type = "l")
         points(Sub_metering_3~Date,col="blue", type = "l")
-        legend("topright", legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), fill=c("black", "blue", "red"))
+        legend("topright", legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lty = 1, col = c("black", "red",  "blue"))
         })
 
 

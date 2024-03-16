@@ -1,4 +1,4 @@
-# Construction of the `plot1.png` plot
+# Construction of the `plot2.png` plot
 
 ## Download dataset
 url <- "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
